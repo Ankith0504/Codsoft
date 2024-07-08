@@ -1,5 +1,5 @@
 class ContactBook:
-    def _init_(self):
+    def __init__(self):
         self.contacts = []
 
     def add_contact(self, name, phone, email, address):
@@ -77,5 +77,5 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
