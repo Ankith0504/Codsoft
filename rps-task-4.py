@@ -46,5 +46,5 @@ def main():
             break
     print("Thanks for playing! Final scores - You: {}, Computer: {}".format(user_score, computer_score))
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
